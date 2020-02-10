@@ -1,0 +1,35 @@
+<nav class="navbar navbar-inverse" style="margin: 0;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">TAP-CAB!</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a [routerLink]="['about']">About Us</a></li>
+     
+      <!-- <li class><a [routerLink]="['cust-signup']">Cust</a></li> -->
+      <!-- <li class><a [routerLink]="['login']">Login</a></li> -->
+     
+      <li class><a [routerLink]="['book-cab']">Booking</a></li>
+      <li class><a [routerLink]="['add-report']">Feedback</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li><a [routerLink]="['login']"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+      <li><a [routerLink]="['register']"><span class="glyphicon glyphicon-log-in"></span>Signup</a></li>
+      <!-- <li><a [routerLink]="['logout']"><span class="glyphicon glyphicon-log-in"></span>LogOut</a></li> -->
+    </ul>
+  </div>
+</nav>
+<!-- <router-outlet></router-outlet> -->
+<!-- <div class="footer" class="image" style="margin: 0;">
+  <div [ngStyle]="{'background' : 'url(./images/trls.jpg)'}">
+
+    
+</div> -->
+
+<!-- </div> -->
+<router-outlet></router-outlet> 
+<!-- <app-header></app-header>
+<router-outlet></router-outlet>
+<app-footer></app-footer> -->
+
+

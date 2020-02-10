@@ -1,0 +1,14 @@
+#content {
+  margin: 0;
+  width: 100%;
+  right: 0px;
+  left: 0px;
+}
+body {
+  background-color: rgb(209, 161, 99)
+}
+/* .image{
+  height:40em; background-size:cover; width:auto;
+  background-image:('url(./images/trls.jpg)');
+  background-position:50% 50%;
+} */
